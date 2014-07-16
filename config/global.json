@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "PawsperitySite": {
+            "applicationId": "BisYNHs83CgAYmBMewBmzTmYmVrLqQcnzTwfmmkh", 
+            "masterKey": "e2A3f5k9ShUB84HqWkJ7lc23yvqbfaAnZl2FAjXW"
+        }, 
+        "_default": {
+            "link": "PawsperitySite"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.19"
+    }
+}
