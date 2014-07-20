@@ -42,35 +42,50 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <!--
-              <h3 class="masthead-brand">Cover</h3>
-              <ul class="nav masthead-nav">
+            <div class="inner cover">
+            
+		<div class="platform">
+		<h1 class="cover-heading">Pawsperity</h1>
+            
+                <p class="lead">Feeding the dogs of the homeless</p>
 
-                <li class="active"><a href="http://getbootstrap.com/examples/cover/#">Home</a></li>
-                <li><a href="http://getbootstrap.com/examples/cover/#">Features</a></li>
-                <li><a href="http://getbootstrap.com/examples/cover/#">Contact</a></li>
-              </ul>-->
-            </div>
-          </div>
+            
+          	<form class="newsletter-signup" name="newsletter-signup">  
+    <div class="input-group lead hidden">
+      <input type="text" placeholder="Enter Your Email For Updates" class="form-control">
+      <span class="input-group-btn">
+        <button type="button" data-loading-text="Validating.." id="signup-validate" class="btn btn-info">Sign Up</button>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Pawsperity</h1>
-            <p class="lead">Feeding the dogs of the homeless</p>
+<script>
+/* DISABLED, USE Parse/Backbone.js INSTEAD
+  $('button#signup-validate').click(function () {
+    var btn = $(this)
+    btn.button('loading')
+    $.ajax(function(){window.alert("");}).always(function () {
+      btn.button('reset')
+    });
+  });
+*/
+</script>
+
+<!--
+TODO INSTALL BootstrapValidator and run email field
+        -->
+      </span>
+    </div><!-- /input-group -->
+          	</form>
             <p class="lead">
               <a class="btn" href="http://www.facebook.com/pawsperity">
                 <!--<img src="./images/FB_FindUsOnFacebook-100.png"></img>-->
-                <img src="./images/FB-f-Logo__blue_50.png">
+                <img src="images/FB-f-Logo__blue_50.png">
               </a>
               <a class="btn" href="https://twitter.com/pawsperity">
                 <!--<img src="./images/FB_FindUsOnFacebook-100.png"></img>-->
-                <img src="./images/Twitter_logo_white.png">
+                <img src="images/Twitter_logo_white.png">
               </a>
               <a href="https://squareup.com/market/pawsperity-inc" class="btn btn-lg btn-default">Donate</a>
             </p>
           </div>
-
           <div class="mastfoot">
             <div class="inner">
               <!--<p>Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
@@ -86,6 +101,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/parse-1.2.19.min.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/docs.min.js"></script>

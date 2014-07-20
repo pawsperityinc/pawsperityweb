@@ -68,10 +68,10 @@ body {
 
 /* Padding for spacing */
 .inner {
+max-width:320px;
   padding: 30px;
   position: absolute;
   bottom: 0;
-  left: 0;
 }
 
 
@@ -126,13 +126,24 @@ body {
  */
 
 .cover {
+font-family:inherit;
   padding: 0 20px;
+background-color: rgba(44, 62, 80,0.6);
+border-radius: 15px;
+margin-bottom:-20px;
+// margin-right:-160px; 
+// activate when centered using "left: 50%" to account for offset
+left:0;
+overflow:hidden; // keeps the lower scrolling from appearing
 }
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
 }
 
+.lead {
+  font-size:18px;
+}
 
 /*
  * Footer
@@ -170,10 +181,11 @@ body {
   }
 }
 
+
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 100%;
   }
 }
