@@ -4,9 +4,25 @@
             "applicationId": "BisYNHs83CgAYmBMewBmzTmYmVrLqQcnzTwfmmkh", 
             "masterKey": "e2A3f5k9ShUB84HqWkJ7lc23yvqbfaAnZl2FAjXW"
         }, 
+        "PawsperitySiteSandbox": {
+            "applicationId": "PiuQ0TOtk7KHy4ghITvwAEf8o0X6aiEsEvGHqsK0", 
+            "masterKey": "vsRqGSIlA1IX1H6JQlxTPRVjxaYYmLPXp0y4dw5Q"
+        }, 
         "_default": {
-            "link": "PawsperitySite"
-        }
+            "link": "PawsperitySiteSandbox”
+        },
+	"live": {
+	    "link": "PawsperitySite"
+	},
+	"dev": {
+	    "link": "PawsperitySiteSandbox"
+	},
+	"production": {
+	    "link": "PawsperitySite"
+	},
+	"development": {
+	    "link": "PawsperitySiteSandbox"
+	}
     }, 
     "global": {
         "parseVersion": "1.2.19"
