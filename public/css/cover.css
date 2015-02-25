@@ -16,6 +16,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
+  
   border: 1px solid #fff;
 }
 
@@ -24,23 +25,12 @@ a:hover {
  * Base structure
  */
 
-html {
-  background: url("../images/curled_up_sf.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-/*
 html,
 body {
   height: 100%;
-  background-color: black;
-  background-image: url("../images/curled_up_sf.jpg");
-  background-repeat:no-repeat;
-  background-position:center;
-}*/
+  background-color: #333;
+    background-image: url(../images/curled_up_sf.jpg);
+}
 body {
   color: #fff;
   text-align: center;
@@ -63,15 +53,11 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
-  /*position: relative;*/
 }
 
 /* Padding for spacing */
 .inner {
   padding: 30px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 
@@ -140,7 +126,7 @@ body {
 
 .mastfoot {
   color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,1);
 }
 
 
@@ -175,5 +161,6 @@ body {
   .mastfoot,
   .cover-container {
     width: 700px;
+      opacity: :
   }
 }
