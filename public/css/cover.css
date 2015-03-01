@@ -30,6 +30,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-color: steelblue;
 }
 
 /*
@@ -44,8 +45,8 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-    background-color: steelblue;
+  text-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -73,8 +74,29 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+    
+    
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-property: all;
 }
 
+.full-opacity
+{
+    opacity: 1;
+}
+
+.no-opacity
+{
+  opacity: 0;
+}
+
+.transition-opacity
+{
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-property: all;
+}
 
 /*
  * Header

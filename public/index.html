@@ -34,27 +34,13 @@
     <![endif]-->
   <style id="holderjs-style" type="text/css"></style></head>
 
-  <body>
+  <body class="no-opacity transition-opacity">
 
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <!--
-              <h3 class="masthead-brand">Cover</h3>
-              <ul class="nav masthead-nav">
-
-                <li class="active"><a href="http://getbootstrap.com/examples/cover/#">Home</a></li>
-                <li><a href="http://getbootstrap.com/examples/cover/#">Features</a></li>
-                <li><a href="http://getbootstrap.com/examples/cover/#">Contact</a></li>
-              </ul>-->
-            </div>
-          </div>
-
           <div class="inner cover">
             <h1 class="cover-heading">Pawsperity</h1>
             <p class="lead">Feeding the dogs of the homeless</p>
@@ -84,6 +70,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+      <script text="">$(document).ready(function () {$('.no-opacity').removeClass('no-opacity'); $('body').addClass('full-opacity')})</script>
 
 
 
